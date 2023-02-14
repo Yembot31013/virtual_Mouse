@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="Build" Inputs="C:\Users\Yemi\Desktop\virtual_mouse\New folder\CMakeFiles\b914c9c37f57862042c6a7e20c14f49e\generate.stamp.rule" Outputs="C:\Users\Yemi\Desktop\virtual_mouse\New folder\CMakeFiles\generate.stamp">
+    <Message Text="Checking Build System" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Yemi/Desktop/virtual_mouse/robiciti &quot;-BC:/Users/Yemi/Desktop/virtual_mouse/New folder&quot; --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file &quot;C:/Users/Yemi/Desktop/virtual_mouse/New folder/.sln&quot;&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd&#10;:VCEnd" />
+  </Target>
+  <Target Name="Clean" />
+  <Target Name="GetTargetPath" />
+  <Target Name="GetNativeManifest" />
+  <Target Name="GetCopyToOutputDirectoryItems" />
+</Project>
